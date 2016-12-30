@@ -50,7 +50,7 @@
                                             <color key="titleColor" red="1" green="0.22483094566960693" blue="0.16736519863038979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="UGz-b3-cPc" kind="show" id="xSW-CO-of2"/>
+                                            <action selector="btnLogin_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8rS-if-Lyd"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvf-hN-k2V">
@@ -112,12 +112,14 @@
                         <outlet property="btnForgotPWD" destination="qWT-pf-8wv" id="YwF-Je-yF5"/>
                         <outlet property="btnLogin" destination="6Wd-XY-Xw3" id="sXq-Ep-pjb"/>
                         <outlet property="btnRegister" destination="rvf-hN-k2V" id="3P3-f2-KYF"/>
+                        <outlet property="txtEmail" destination="gzb-tB-5m9" id="47M-Ql-GQZ"/>
+                        <outlet property="txtPWD" destination="iFy-WF-OKR" id="Xpg-F8-k79"/>
                         <outlet property="uvBackgroundLogin" destination="92X-h1-tsM" id="Mfk-SC-s4e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="906" y="199"/>
+            <point key="canvasLocation" x="1521" y="-673"/>
         </scene>
         <!--List Friend-->
         <scene sceneID="u8L-xt-gWB">
@@ -138,7 +140,7 @@
                                         <rect key="frame" x="0.0" y="92" width="375" height="63"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bQT-6t-x9g" id="toU-yP-Ea6">
-                                            <frame key="frameInset" width="375" height="62"/>
+                                            <frame key="frameInset" width="375" height="63"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="personicon" translatesAutoresizingMaskIntoConstraints="NO" id="Zvi-pE-fDm">
@@ -199,7 +201,7 @@
                                         <rect key="frame" x="0.0" y="92" width="375" height="72"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HZr-ea-yLw" id="e8W-5t-dGQ">
-                                            <frame key="frameInset" width="375" height="71"/>
+                                            <frame key="frameInset" width="375" height="72"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="personicon" translatesAutoresizingMaskIntoConstraints="NO" id="2vz-Kt-AUh">
@@ -256,10 +258,10 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell1" rowHeight="69" id="519-LB-QNh">
-                                        <rect key="frame" x="0.0" y="92" width="375" height="69"/>
+                                        <rect key="frame" x="0.0" y="92" width="1000" height="69"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="519-LB-QNh" id="lrk-V6-dYN">
-                                            <frame key="frameInset" width="375" height="68"/>
+                                            <frame key="frameInset" width="1000" height="69"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="personicon" translatesAutoresizingMaskIntoConstraints="NO" id="Rdz-lZ-qia">
@@ -286,10 +288,10 @@
                                         <color key="backgroundColor" red="0.85074855449999998" green="1" blue="0.81933748500000003" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell2" rowHeight="81" id="gVa-K4-Lk8">
-                                        <rect key="frame" x="0.0" y="161" width="375" height="81"/>
+                                        <rect key="frame" x="0.0" y="161" width="1000" height="81"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gVa-K4-Lk8" id="p9k-K2-gHU">
-                                            <frame key="frameInset" width="375" height="80"/>
+                                            <frame key="frameInset" width="1000" height="81"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="personicon" translatesAutoresizingMaskIntoConstraints="NO" id="Gef-Cv-dT3">
@@ -524,12 +526,12 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-185" y="848"/>
+            <point key="canvasLocation" x="566" y="177"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="SgE-wf-GIA">
             <objects>
-                <viewController id="UGz-b3-cPc" customClass="SWRevealViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="isLogin" id="UGz-b3-cPc" customClass="SWRevealViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wrf-eB-3nz"/>
                         <viewControllerLayoutGuide type="bottom" id="oPn-3p-TZQ"/>
@@ -553,16 +555,16 @@
         <scene sceneID="bXJ-mR-gZb">
             <objects>
                 <tableViewController id="Dnj-qN-DyH" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="eck-QV-s2K">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="52" sectionHeaderHeight="28" sectionFooterHeight="28" id="eck-QV-s2K">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="9qR-Vx-tnp">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="52" id="9qR-Vx-tnp" userLabel="Title">
+                                <rect key="frame" x="0.0" y="28" width="375" height="52"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9qR-Vx-tnp" id="0b8-au-DAv">
-                                    <frame key="frameInset" width="375" height="43"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9qR-Vx-tnp" id="0b8-au-DAv" userLabel="Name">
+                                    <frame key="frameInset" width="375" height="51"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -575,7 +577,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w4R-nl-VOE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3616" y="177"/>
+            <point key="canvasLocation" x="3213.5999999999999" y="150.67466266866569"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Fyu-KY-SM7">
@@ -720,7 +722,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Menu" width="128" height="128"/>
+        <image name="Menu" width="32" height="32"/>
         <image name="background" width="1144" height="511"/>
         <image name="background2" width="514" height="960"/>
         <image name="camera" width="256" height="256"/>
@@ -730,6 +732,6 @@
         <image name="sent" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GbC-7h-KeF"/>
+        <segue reference="h7d-TJ-Wnh"/>
     </inferredMetricsTieBreakers>
 </document>

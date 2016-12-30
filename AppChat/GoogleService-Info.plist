@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>853848577032-qgsh73o4t8aedgk97ja4liirn2o52r6d.apps.googleusercontent.com</string>
+	<string>734418113082-jd52adfs770nc8p4o86r0trm837t5p8v.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.853848577032-qgsh73o4t8aedgk97ja4liirn2o52r6d</string>
+	<string>com.googleusercontent.apps.734418113082-jd52adfs770nc8p4o86r0trm837t5p8v</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAyU_2Uj9ONBVKXH91d3TCVoXMg5f02RGI</string>
+	<string>AIzaSyBvQxCm6oQYCiW8N-QhydzUryQN43QPboA</string>
 	<key>GCM_SENDER_ID</key>
-	<string>853848577032</string>
+	<string>734418113082</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>Huynh-Cong-Thai.AppChat</string>
+	<string>MD.AppChat</string>
 	<key>PROJECT_ID</key>
-	<string>app-chat-9f178</string>
+	<string>appchat-4661f</string>
 	<key>STORAGE_BUCKET</key>
-	<string>app-chat-9f178.appspot.com</string>
+	<string>appchat-4661f.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:853848577032:ios:d2ee7b3ffa454f0d</string>
+	<string>1:734418113082:ios:1b85de4c9dddeb86</string>
 	<key>DATABASE_URL</key>
-	<string>https://app-chat-9f178.firebaseio.com</string>
+	<string>https://appchat-4661f.firebaseio.com</string>
 </dict>
 </plist>

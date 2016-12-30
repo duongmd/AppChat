@@ -39,7 +39,7 @@ class ScreenRegisterViewController: UIViewController {
     @IBAction func btnRegister_action(_ sender: AnyObject) {
         
         //URL den avatar
-        let storageRef = storage.reference(forURL: "gs://app-chat-9f178.appspot.com")
+        let storageRef = storage.reference(forURL: "gs://appchat-4661f.appspot.com")
         
 //Tao new user
         FIRAuth.auth()?.createUser(withEmail: txtEmail.text!, password: txtPWD.text!) { (user, error) in
@@ -71,6 +71,8 @@ class ScreenRegisterViewController: UIViewController {
                         if error == nil {
                             
                             print("Success!")
+                            let VC = self.storyboard?.instantiateViewController(withIdentifier: "isLogin")
+                            self.present(VC!, animated: true, completion: nil)
                             
                         }else {
                             print("Loi update profile")
